@@ -36,7 +36,7 @@ if (KEEP_ALIVE_URL) {
 }
 
 // ---------- Config ----------
-const TICKET_LIFETIME = 5 * 60 * 1000; // 5 นาที
+const TICKET_LIFETIME = 5 * 60 * 1000; // 10 นาที
 const STAFF_ROLE_ID = process.env.STAFF_ROLE_ID || '';
 const CATEGORY_ID = process.env.CATEGORY_ID || '';
 const MONGODB_URI = process.env.MONGODB_URI || '';
